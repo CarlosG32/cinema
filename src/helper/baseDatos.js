@@ -6,7 +6,7 @@ export let peliculas=[
         poster:"https://firebasestorage.googleapis.com/v0/b/storage-e6188.appspot.com/o/AVATAR.jpg?alt=media&token=8b4c49f4-f7cc-455d-9211-714c25134392", //a2qui va la foto de firebase
         sipnosis:"n un exuberante planeta llamado Pandora viven los Na'vi, seres que aparentan ser primitivos pero que en realidad son muy evolucionados. Debido a que el ambiente de Pandora es venenoso, los híbridos humanos/Na'vi, llamados Avatares, están relacionados con las mentes humanas, lo que les permite moverse libremente por Pandora. Jake Sully, un exinfante de marina paralítico se transforma a través de un Avatar, y se enamora de una mujer Na'vi.",//poner la descripcion
         clasificacion:"General",
-        idioma:"Dob Esp"
+        idioma:"Dob Esp",
     },
 
     {

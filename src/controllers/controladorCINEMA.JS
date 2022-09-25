@@ -55,6 +55,7 @@ peliculaselecionada.nombre=evento.target.parentElement.querySelector('h3').textC
 peliculaselecionada.genero=evento.target.parentElement.querySelector('h5').textContent //genero
 peliculaselecionada.idioma=evento.target.parentElement.querySelector('h6').textContent //idioma
 peliculaselecionada.sinopsis=evento.target.parentElement.querySelector('p').textContent //sinopsis
+peliculaselecionada.clasificacion=evento.target.parentElement.querySelector('h7').textContent //clasificacion
 
 console.log(peliculaselecionada)
 

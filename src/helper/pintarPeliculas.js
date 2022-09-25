@@ -32,17 +32,23 @@ export function pintarPeliculas(peliculas){
          //5, creamos el genero
          let genero=document.createElement("h5")
          genero.classList.add("text-start")
+         genero.classList.add("fw-semibold")
          genero.textContent = "genero: " + pelicula.genero
     
          //6. creamos idioma
          let idioma=document.createElement("h6")
-         idioma.classList.add("fw-bold")
+         idioma.classList.add("fw-semibold")
          idioma.textContent = "Idioma: " + pelicula.idioma
     
          //7. creamos la sipnosis
          let sipnosis=document.createElement("p")
          sipnosis.classList.add("d-none")
          sipnosis.textContent = pelicula.sipnosis
+
+         //8. creamos la clasificacion
+         let clasificacion=document.createElement("h7")
+         clasificacion.classList.add("fst-italic")
+         clasificacion.textContent = "clasificacion: " + pelicula.clasificacion
     
     
     
@@ -52,6 +58,7 @@ export function pintarPeliculas(peliculas){
          tarjeta.appendChild(genero)
          tarjeta.appendChild(idioma)
          tarjeta.appendChild(sipnosis)
+         tarjeta.appendChild(clasificacion)
         
          columna.appendChild(tarjeta)
          fila.appendChild(columna)
